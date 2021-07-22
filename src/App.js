@@ -1,11 +1,14 @@
 import './App.css';
+import Header from './Header';
+import PostComment from './PostComment';
+import CommentsContainer from './CommentsContainer';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+      <Header/>
+      <PostComment/>
+      <CommentsContainer/>
     </div>
   );
 }

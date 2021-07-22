@@ -1,0 +1,18 @@
+
+h1 {
+    margin-top: 0;
+    padding-top: 3%;
+    font-family: Bebas Neue, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+
+  
+/* Media Query: Tablet or Smaller */
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+}
